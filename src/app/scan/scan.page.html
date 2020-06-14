@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-icon name="chevron-back" id="back-icon" [routerLink]="['/home']"></ion-icon>
+    </ion-buttons>
+    <ion-title>Enquadre seu prato</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding class="background">
+  <div id="tela">
+    <img src="../../assets/scan/prato.png">
+    <span id="text-footer">Posicione seu prato dentro do frame, de forma<br>que todos os elementos apareceçam claramente.</span>
+    <button (click)='openCamera()'>Scan</button>
+  </div>
+</ion-content>

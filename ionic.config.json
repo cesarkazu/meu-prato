@@ -1,5 +1,7 @@
 {
   "name": "meu-prato",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

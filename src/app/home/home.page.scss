@@ -1,0 +1,71 @@
+#back-icon {
+    color: #0D1F3C;
+}
+
+ion-toolbar {
+    --background: #EDF1F9;
+}
+
+ion-content {
+    --ion-background-color: #EDF1F9;
+}
+
+ion-title {
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 32px;
+    text-align: center;
+    color: #0D1F3C;
+}
+
+#tela {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+img {
+    margin-top: 6rem;
+}
+
+#text-footer {
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #0D1F3C;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    /* background: #EDF1F9; */
+    box-shadow: 0px -1px 7px rgba(255, 255, 255, 0.6);
+    border-radius: 20px 20px 1px 1px;
+}
+
+#add-icon {
+    font-size: 48px;
+}
+
+ion-icon {
+    font-size: 24px;
+}
+
+ion-label {
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: #78839C;
+}
