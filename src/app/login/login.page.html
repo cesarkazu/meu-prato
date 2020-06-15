@@ -1,1 +1,24 @@
-<img src="../../assets/login/screen.svg" [routerLink]="['/home']">
+<ion-toolbar>
+    <ion-title>Bem-vindo(a)!</ion-title>
+</ion-toolbar>
+
+<ion-content>
+    <div id="limite">
+        <img src="../../assets/login/logo.svg">
+        <div id="conteudo">
+            <input type="text" placeholder="E-mail" id="input-email">
+            <div id="input-link">
+                <div id="input-icon">
+                    <input type="text" placeholder="Senha">
+                    <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <a href="" id="link" text-left>Esqueceu a senha?</a>
+            </div>
+            <button [routerLink]="['/home']">Login</button>
+            <div id="footer-align">
+                <span id="footer-text">Não possui uma conta?&nbsp;</span>
+                <span id="footer-link">Cadastrar</span>
+            </div>
+        </div>
+    </div>
+</ion-content>

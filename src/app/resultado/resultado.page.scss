@@ -1,0 +1,90 @@
+ion-content {
+    --ion-background-color: #EDF1F9;
+}
+
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+#header-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#card-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+#titulo {
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 32px;
+    text-align: center;
+    color: #0D1F3C;
+}
+
+#texto {
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 24px;
+    text-align: center;
+    color: #485068;
+}
+
+img {
+    width: 6rem;
+    margin-right: 1rem;
+}
+
+#card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#card-titulo {
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 24px;
+    color: #000000;
+}
+
+#card-texto {
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.7rem;
+    line-height: 13px;
+    color: #485068;
+}
+
+button {
+    width: 11rem;
+    height: 2.5rem;
+    background: #347AF0;
+    border-radius: 23px;
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}

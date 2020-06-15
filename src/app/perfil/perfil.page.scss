@@ -1,0 +1,59 @@
+ion-toolbar {
+    --background: #347AF0;
+}
+
+ion-content {
+    --ion-background-color: #347AF0;
+}
+
+#titulo {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+ion-icon {
+    font-size: 1.6rem;
+}
+
+#titulo-texto {
+    width: 100%;
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#conteudo {
+    position: absolute;
+    z-index: 1;
+}
+
+#img-header {
+    width: 100vh;
+    height: auto;
+}
+
+#itens {
+    background: #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#itens > img {
+    margin-top: 1.4rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    width: 100vh;
+    height: auto;
+}
+
+#itens > #img-footer {
+    margin-bottom: 1.4rem;
+}

@@ -1,9 +1,20 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>perfil</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
-
+  <div id="titulo">
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-icon name="chevron-back-outline" [routerLink]="['/home']"></ion-icon>
+      </ion-buttons>
+      <ion-title id="titulo-texto">Perfil</ion-title>
+      <ion-buttons slot="end">
+        <ion-icon name="ellipsis-vertical-outline"></ion-icon>
+      </ion-buttons>
+    </ion-toolbar>
+  </div>
+  <div id="conteudo">
+    <img src="../../assets/perfil/item-1.svg" id="img-header">
+    <div id="itens">
+      <img src="../../assets/perfil/item-2.svg">
+      <img src="../../assets/perfil/item-3.svg" id="img-footer">
+    </div>
+  </div>
 </ion-content>

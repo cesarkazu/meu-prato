@@ -1,32 +1,54 @@
-ion-content.background{
+ion-content.background {
     --background: url(../../assets/scan/bg.jpeg) 0 0/100% 100% no-repeat;
-    opacity: 0.8;
 }
 
-#back-icon {
-    color: #FFFFFF;
+#bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: #0D1F3C;
+    opacity: 80%;
+}
+
+#titulo {
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+}
+
+ion-toolbar {
+    --background: transparent;
+}
+
+#tela {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 ion-title {
     font-family: Titillium Web;
     font-style: normal;
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     line-height: 32px;
     text-align: center;
     color: #FFFFFF;
 }
 
-#tela {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
+ion-icon {
+    font-size: 1.6rem;
+    color: #FFFFFF;
 }
 
 img {
-    margin-top: 4rem;
+    margin-top: 6rem;
     height: auto;
     width: 18rem;
 }
@@ -42,8 +64,8 @@ img {
 }
 
 button {
-    width: 12rem;
-    height: 3rem;
+    width: 11rem;
+    height: 2.5rem;
     background: #347AF0;
     border-radius: 23px;
     font-family: Titillium Web;
